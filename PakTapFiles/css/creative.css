@@ -2255,7 +2255,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: navy;
+  color: rgb(0, 25, 230);
   background-color: #ffff00;
   border-color: #ffff00;
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 0);
@@ -2263,7 +2263,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: yellow;
-  background-color: navy;
+  background-color: rgb(0, 25, 230);;
   border-color: #ffff00;
 }
 .btn-secondary {
@@ -6183,13 +6183,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: cyan !important;
+  background-color: rgb(0, 25, 230) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: cyan !important;
+  background-color: rgb(0, 25, 230) !important;
 }
 
 .bg-secondary {
@@ -9342,7 +9342,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: rgb(0, 255, 255) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9591,7 +9591,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: rgb(0, 255, 255) !important;
 }
 
 @media (min-width: 992px) {
@@ -9626,10 +9626,10 @@ hr.light {
     color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: rgb(0, 25, 230);
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: rgb(0, 255, 255);
   }
 }
 
